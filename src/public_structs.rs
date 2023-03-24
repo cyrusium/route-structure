@@ -1,9 +1,3 @@
-fn main() {}
-
-enum BusCompany {
-  TCI
-}
-
 enum Fuel {
   Diesel,
   Gasoline,
@@ -26,7 +20,6 @@ struct Bus {
   id: u32,
   accessibilities: Accessibility,
   capacity: u32,
-  company: BusCompany,
   fuel: Fuel,
 }
 
